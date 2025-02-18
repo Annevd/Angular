@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

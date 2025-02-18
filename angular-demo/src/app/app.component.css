@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(244, 208, 219);
+    padding: 2rem;
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    justify-self: end;
+    display: flex;
+}
+
+svg {
+    width: auto;
+    height: 2rem;
+}
