@@ -7,17 +7,20 @@ import { routes } from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+// import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    AboutComponent,
-    PageNotFoundComponent
+    
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    PageNotFoundComponent,
+    // CardComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
