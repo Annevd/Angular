@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WeatherService } from '../services/weather.service';
+import { WeatherService } from '../../services/weather.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -7,11 +7,11 @@ import { FormsModule } from '@angular/forms';
   selector: 'current-weather',
   imports: [CommonModule, FormsModule], // Needed for ngModel in the template
   templateUrl: './current-weather.component.html',
-  styleUrl: './current-weather.component.css'
+  styleUrl: './current-weather.component.scss'
 })
 export class CurrentWeatherComponent implements OnInit {
   weatherData: any;
-  city: string = 'New York'; // Default city
+  city: string = 'Amsterdam'; // Default city
 
   constructor(private weatherService: WeatherService) {}
 
